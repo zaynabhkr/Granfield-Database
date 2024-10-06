@@ -1,7 +1,7 @@
 .open softwaredatabase.db
 .mode markdown
 .once softwaredatabase.md
-/*
+
 CREATE TABLE `Ethnicity` ( 
     `EthnicityKey` INTEGER,
     `EthnicityDescription` TEXT,
@@ -233,7 +233,7 @@ JOIN Users AS U ON PD.UserID = U.UserID
 JOIN Ethnicity AS E ON PD.Ethnicitykey = E.Ethnicitykey
 JOIN MachineUsers AS MU ON MU.UserID = U.UserID
 JOIN Machine AS M ON MU.MachineID = M.MachineID;
-*/
+
 --select * from PersonalInformation;
 
 select * from everything_about_software;
