@@ -35,3 +35,4 @@ To explore the database:
 - Query the database to view the various tables and views for a detailed understanding of the relationships.
 
 This database schema is ideal for educational institutions or organizations seeking to manage software licenses, track software usage, and maintain user and machine information efficiently.
+For a better understanding, a presentation named "Granfield presentation.pdf" is provided alongside the database schema, detailing the UML diagrams, constraints, and information about the stakeholders involved in the development and maintenance of the system.
